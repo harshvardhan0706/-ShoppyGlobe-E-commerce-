@@ -5,6 +5,7 @@ import { addItemToCart } from '../store/cartSlice';
 
 /**
  * ProductDetail component - shows detailed information about a selected product
+ * @returns {JSX.Element} - ProductDetail component
  */
 const ProductDetail = () => {
   const { id } = useParams();
