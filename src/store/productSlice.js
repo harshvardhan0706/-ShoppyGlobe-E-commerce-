@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+// Initial state for products
 const initialState = {
   products: [],
   searchQuery: '',
