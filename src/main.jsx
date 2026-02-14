@@ -5,6 +5,10 @@ import store from './store';
 import App from './App.jsx';
 import './index.css';
 
+/**
+ * Main entry point for the React application
+ * Renders the App component with Redux Provider
+ */
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
