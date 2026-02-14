@@ -5,6 +5,7 @@ import { setProducts, setLoading, setError } from '../store/productSlice';
 /**
  * Custom hook to fetch products from the API
  * Uses Redux for state management
+ * @returns {object} - products, loading, error state
  */
 const useProducts = () => {
   const dispatch = useDispatch();
