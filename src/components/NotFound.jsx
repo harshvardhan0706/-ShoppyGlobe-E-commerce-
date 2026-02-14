@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 /**
  * NotFound component - displays 404 error page
+ * @returns {JSX.Element} - NotFound component
  */
 const NotFound = () => {
   return (
