@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 /**
  * Header component - displays navigation menu and shopping cart icon
+ * @returns {JSX.Element} - Header component
  */
 const Header = () => {
   const cartItems = useSelector((state) => state.cart.items);
