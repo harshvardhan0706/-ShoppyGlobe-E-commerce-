@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 /**
  * Custom hook to fetch product details by ID
  * @param {string|number} productId - The ID of the product
+ * @returns {object} - product, loading, error state
  */
 const useProductDetail = (productId) => {
   const [product, setProduct] = useState(null);
