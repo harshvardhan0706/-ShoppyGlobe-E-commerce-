@@ -5,6 +5,7 @@ import { clearCart } from '../store/cartSlice';
 
 /**
  * Checkout component - displays order form and summary
+ * @returns {JSX.Element} - Checkout component
  */
 const Checkout = () => {
   const dispatch = useDispatch();
