@@ -5,6 +5,7 @@ import { addItemToCart } from '../store/cartSlice';
 /**
  * ProductItem component - represents a single product
  * @param {object} product - Product data
+ * @returns {JSX.Element} - ProductItem component
  */
 const ProductItem = ({ product }) => {
   const dispatch = useDispatch();
