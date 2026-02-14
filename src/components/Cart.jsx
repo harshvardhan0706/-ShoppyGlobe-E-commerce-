@@ -4,6 +4,7 @@ import CartItem from './CartItem';
 
 /**
  * Cart component - displays items in the cart
+ * @returns {JSX.Element} - Cart component
  */
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.items);

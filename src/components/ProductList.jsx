@@ -5,6 +5,7 @@ import ProductItem from './ProductItem';
 
 /**
  * ProductList component - displays a list of products with search functionality
+ * @returns {JSX.Element} - ProductList component
  */
 const ProductList = () => {
   const dispatch = useDispatch();
@@ -75,3 +76,4 @@ const ProductList = () => {
 };
 
 export default ProductList;
+

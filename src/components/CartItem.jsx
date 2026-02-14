@@ -4,6 +4,7 @@ import { removeItemFromCart, updateQuantity } from '../store/cartSlice';
 /**
  * CartItem component - represents a single item in the cart
  * @param {object} item - Cart item data
+ * @returns {JSX.Element} - CartItem component
  */
 const CartItem = ({ item }) => {
   const dispatch = useDispatch();
@@ -62,3 +63,4 @@ const CartItem = ({ item }) => {
 };
 
 export default CartItem;
+
