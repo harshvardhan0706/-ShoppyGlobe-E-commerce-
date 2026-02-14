@@ -11,7 +11,7 @@ const Checkout = lazy(() => import('./components/Checkout'));
 const NotFound = lazy(() => import('./components/NotFound'));
 
 /**
- * Loading component for Suspense fallback
+ * LoadingFallback component - displays while lazy loaded components are loading
  */
 const LoadingFallback = () => (
   <div className="loading-container">
